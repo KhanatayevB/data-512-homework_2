@@ -13,8 +13,8 @@ Purpose of this assignment is to explore the concept of bias in data using Wikip
 ## Generated Files
 * article_data.csv - File generated in the page requests notebook, adding a revision ID to the us_cities file. The columns are:<img width="587" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/ec1988c0-dd2d-45c0-bb7f-499be60583d3">
 * article_data_clean.csv - File generated after running the Cleaning article data notebook. It has the same columns as article_data.csv.
-* quality_scores_pred.csv - Output of the ORES request notebook, gives you the titles that had no issues with the API. The columns are: Article Title	URL	Revision ID	Quality Score Pred	City	State<img width="875" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/94c6440d-fdf7-4e37-a454-44e2b1179c76">
-* issue_quality_scores.csv - Output of the ORES request notebook. Gives you the article titles that did not get a quality score. Columns are: Article Title	URL	Revision ID	Quality Score Pred<img width="641" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/54c306bf-42ef-48cc-a97b-64544f862080">
+* quality_scores_pred.csv - Output of the ORES request notebook, gives you the titles that had no issues with the API. The columns are:<img width="875" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/94c6440d-fdf7-4e37-a454-44e2b1179c76">
+* issue_quality_scores.csv - Output of the ORES request notebook. Gives you the article titles that did not get a quality score. Columns are:<img width="641" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/54c306bf-42ef-48cc-a97b-64544f862080">
 
 
 
