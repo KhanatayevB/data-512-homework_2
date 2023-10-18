@@ -7,7 +7,8 @@ Purpose of this assignment is to explore the concept of bias in data using Wikip
 
 * us_cities_by_state_SEPT.2023.csv - The Wikipedia Category: Lists of cities in the United States by state was crawled to generate a list of Wikipedia article pages about US cities from each state. The file columns are:  <img width="563" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/923a5462-02d9-4253-9b72-eba397294ef8">
 
-* NST-EST2022-POP.xlsx - The US Census Bureau provides updated population estimates for every US state. You can find State Population Totals and Components of Change: 2020-2022 from their website.
+* NST-EST2022-POP.xlsx - The US Census Bureau provides updated population estimates for every US state. You can find State Population Totals and Components of Change: 2020-2022 from their website. This file a header that looks like this: <img width="547" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/7fd3083a-c5a1-471b-806a-1c2aeb591025">
+
 * US States by Region - US Census Bureau.xlsx - The regional and divisional agglomerations as defined by the US Census Bureau. Columns are: REGION	DIVISION	STATE
 
 ## Generated Files
