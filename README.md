@@ -5,13 +5,13 @@ Purpose of this assignment is to explore the concept of bias in data using Wikip
 
 ## Given Files
 
-* us_cities_by_state_SEPT.2023.csv - The Wikipedia Category: Lists of cities in the United States by state was crawled to generate a list of Wikipedia article pages about US cities from each state. The file columns are: state	page_title	url <img width="563" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/923a5462-02d9-4253-9b72-eba397294ef8">
+* us_cities_by_state_SEPT.2023.csv - The Wikipedia Category: Lists of cities in the United States by state was crawled to generate a list of Wikipedia article pages about US cities from each state. The file columns are:  <img width="563" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/923a5462-02d9-4253-9b72-eba397294ef8">
 
 * NST-EST2022-POP.xlsx - The US Census Bureau provides updated population estimates for every US state. You can find State Population Totals and Components of Change: 2020-2022 from their website.
 * US States by Region - US Census Bureau.xlsx - The regional and divisional agglomerations as defined by the US Census Bureau
 
 ## Generated Files
-* article_data.csv - File generated in the page requests notebook, adding a revision ID to the us_cities file. The columns are: Article Title	URL	Revision ID<img width="587" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/ec1988c0-dd2d-45c0-bb7f-499be60583d3">
+* article_data.csv - File generated in the page requests notebook, adding a revision ID to the us_cities file. The columns are:<img width="587" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/ec1988c0-dd2d-45c0-bb7f-499be60583d3">
 * article_data_clean.csv - File generated after running the Cleaning article data notebook. It has the same columns as article_data.csv.
 * quality_scores_pred.csv - Output of the ORES request notebook, gives you the titles that had no issues with the API. The columns are: Article Title	URL	Revision ID	Quality Score Pred	City	State<img width="875" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/94c6440d-fdf7-4e37-a454-44e2b1179c76">
 * issue_quality_scores.csv - Output of the ORES request notebook. Gives you the article titles that did not get a quality score. Columns are: Article Title	URL	Revision ID	Quality Score Pred<img width="641" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/54c306bf-42ef-48cc-a97b-64544f862080">
