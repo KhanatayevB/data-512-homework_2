@@ -18,6 +18,8 @@ Purpose of this assignment is to explore the concept of bias in data using Wikip
 * NST-EST2022-POP.xlsx - The US Census Bureau provides updated population estimates for every US state. You can find State Population Totals and Components of Change: 2020-2022 from their website. This file a header that looks like this: <img width="547" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/7fd3083a-c5a1-471b-806a-1c2aeb591025">
 
 * US States by Region - US Census Bureau.xlsx - The regional and divisional agglomerations as defined by the US Census Bureau. Columns are: REGION	DIVISION	STATE
+* wp_ores_liftwing_example.ipynb - ORES API Usage Example provided.
+* wp_page_info_example.ipynb - WikiMedia Pagiinfo retrieval API example provided.
 
 ## Generated Files
 * article_data.csv - File generated in the page requests notebook, adding a revision ID to the us_cities file. The columns are: <img width="587" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/ec1988c0-dd2d-45c0-bb7f-499be60583d3">
