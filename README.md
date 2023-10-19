@@ -3,6 +3,13 @@ Bazham Khanatayev 10. 14.2023
 
 Purpose of this assignment is to explore the concept of bias in data using Wikipedia articles. This assignment will consider articles about cities in different US states. For this assignment, you will combine a dataset of Wikipedia articles with a dataset of state populations, and use a machine learning service called ORES to estimate the quality of the articles about the cities.
 
+## Sources
+
+* Code provided by Dr. David W. McDonals on how to use the PageInfo MediaWiki API and the ORES API. License for the MediaWiki API: This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the Creative Commons CC-BY license. Revision 1.1 - August 14, 2023. License for the ORES wiki API: This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the Creative Commons CC-BY license. Revision 1.0 - August 15, 2023. Both Files are in the directory and were used to help write my own API's
+* Websites used for data: https://en.wikipedia.org/wiki/Category:Lists_of_cities_in_the_United_States_by_state, https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html, https://en.wikipedia.org/wiki/List_of_regions_of_the_United_States#Census_Bureau%E2%80%93designated_regions_and_divisions, https://en.wikipedia.org/wiki/Wikipedia:Content_assessment
+* Chat GPT, Google Bard and CoPilot were all used at various times to help with debugging and some of the more verbose parts of the code. 
+
+
 
 ## Given Files
 
