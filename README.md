@@ -18,6 +18,8 @@ Purpose of this assignment is to explore the concept of bias in data using Wikip
 * quality_scores_pred.csv - Output of the ORES request notebook, gives you the titles that had no issues with the API. The columns are: <img width="875" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/94c6440d-fdf7-4e37-a454-44e2b1179c76">
 * issue_quality_scores.csv - Output of the ORES request notebook. Gives you the article titles that did not get a quality score. Columns are: <img width="641" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/54c306bf-42ef-48cc-a97b-64544f862080">
 * wp_scored_city_articles_by_state.csv - This file is the output of the data preprocessing notebook. It has the data nicely prepared for analysis. The columns are:<img width="533" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/b76fb798-5035-4f3d-900f-2d16841fdc54">
+* problematic_titles_log.csv - These are the articles that have titles that do not make sense for the analysis: <img width="611" alt="image" src="https://github.com/KhanatayevB/data-512-homework_2/assets/72726814/6408632a-b1c0-4dde-b2cb-849b0a0f098f">
+
 
 
 
@@ -28,7 +30,8 @@ Purpose of this assignment is to explore the concept of bias in data using Wikip
 1. Run the Page_Info_Request_Notebook_Bazham_Khanatayev.ipynb notebook. It will take the us_cities_by_state_SEPT.2023.csv files and grab the page information requests from the API. It will then output the article_data.csv file.
 2. The article_data.csv is the input for the Cleaning_article_data_csv_Notebook_Bazham_Khanatayev.ipynb. which the notebook that you will run next. This notebook prepares the data for the ORES API removing titles that do not make sense for this task. The output of the notebook is article_data_clean.csv.
 3. Next, we will run the ORES_Request_Predication_Notebook_Bazham_Khanatayev.ipynb which takes the article_data_clean.csv and gets the quality scores. It outs two csv's one for the articles that were able to get a score and a csv for the articles that were not able to.
-4. Run the Pre_Analysis_Data_Combination_Preperation_Bazham_Khanatayev.ipynb which takes in the US States by Region - US Census Bureau.xlsx excel file, the NST-EST2022-POP.xlsx file and the quality_scores_pred.csv. It then cleans and prepares data from all three csv's and outputs the wp_scored_city_articles_by_state.csv file. 
+4. Run the Pre_Analysis_Data_Combination_Preperation_Bazham_Khanatayev.ipynb which takes in the US States by Region - US Census Bureau.xlsx excel file, the NST-EST2022-POP.xlsx file and the quality_scores_pred.csv. It then cleans and prepares data from all three csv's and outputs the wp_scored_city_articles_by_state.csv file.
+5. Run the Results_Bazham_Khanatayev.ipynb that takes in wp_scored_city_articles_by_state.csv and creates the required tables. The questions for each table are all clearly documneted in the notebook.
 
 
 
